@@ -1,0 +1,32 @@
+
+
+.title {
+    font-size: calc(3rem + 3vw);
+    max-font-size: 10px;
+    color: #00E602;
+    /*-webkit-text-stroke: 2px black*/
+    border-right: solid #00E602 calc(0.5rem + 0.5vw);
+    padding: 0;
+    white-space: nowrap;
+    margin: 2rem auto 0 auto;
+    line-height: calc(2rem + 3vw);
+    animation: blink-caret 1s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #00E602 }
+
+}
+
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

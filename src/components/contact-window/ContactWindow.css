@@ -1,0 +1,105 @@
+
+.contact {
+    white-space: pre-line;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    border: solid 0.07rem white;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: #00E602;
+    max-width: 40rem;
+    min-width: 12rem;
+}
+
+.command-close:hover {
+
+    background-color: #FFFFFF90;
+}
+
+.command-header {
+    border: solid white;
+    border-width: 0 0 0.05rem 0 ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.command-close {
+    padding: 0 1rem;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-size: 2rem;
+    font-weight: lighter;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.command-title {
+    padding-left: 1rem;
+    font-weight: normal;
+    font-size: 150%;
+}
+
+.contact-text {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.command-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+img {
+    margin-top: 1.5rem;
+    width: 80%;
+    align-self: center;
+}
+
+.contact-button {
+    margin-top: 2rem;
+    font-family: "Courier New", serif;
+    text-transform: uppercase;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: black;
+    background-image: url("../../assets/button_background.svg");
+    color: white;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    border: transparent;
+    -webkit-text-stroke: 0.07rem black;
+    transition: filter 0.25s ease-in-out;
+    box-shadow: inset 0 0 7rem black;
+
+}
+
+
+
+
+.contact-button:hover {
+    box-shadow: inset 0 0 5rem black;
+
+    filter: hue-rotate(45deg);
+
+
+}
+.contact-button:active {
+    filter: hue-rotate(0deg);
+    box-shadow: inset 0 0 15rem black;
+    -webkit-text-stroke: 0.05rem black;
+
+
+}
+
+
+
+

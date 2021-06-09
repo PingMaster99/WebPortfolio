@@ -1,0 +1,62 @@
+.command-window {
+    white-space: pre-line;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    border: solid 0.07rem white;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: #00E602;
+    max-width: 40rem;
+    min-width: 12rem;
+}
+
+.command-close:hover {
+
+    background-color: #FFFFFF90;
+}
+
+.command-header {
+    border: solid white;
+    border-width: 0 0 0.05rem 0 ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.command-close {
+    padding: 0 1rem;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-size: 2rem;
+    font-weight: lighter;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.command-title {
+    padding-left: 1rem;
+    font-weight: normal;
+    font-size: 150%;
+}
+
+.command-text {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    text-align: inherit;
+}
+
+.command-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    margin-top: 1.5rem;
+    width: 80%;
+    align-self: center;
+}

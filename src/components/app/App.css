@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+    font-family: "Courier New", serif;
+    background-image: url('../../assets/welcome-binary.svg'), url('../../assets/welcome-binary.svg');
+    background-repeat: repeat-y, repeat-y;
+    background-position-y: -60px;
+    background-position-x: -150px;
+    width: 100%;
+    height: 100%;
+    min-height: 250rem;
+
+}
+
+body::-webkit-scrollbar {
+    width: 1vw;
+    min-width: 0.1rem;
+    transition: width 1s ease-in-out;
+}
+
+body::-webkit-scrollbar:hover {
+    width: 2vw;
+}
+
+body::-webkit-scrollbar-track {
+    background: black;
+    border-left: solid #333333 0.1vw;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #00E602;
+}
+
+
+canvas {
+    display: block;
+    position: fixed;
+    z-index: -1;
+}
+
+h1 {
+    font-family: "Courier New", sans-serif;
+    font-size: 10rem;
+    font-weight: normal;
+}
+
+h4 {
+    color: #00E602;
+    font-weight: normal;
+    align-self: center;
+    display: block;
+    text-align: center;
+}
+
+.command-window-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.command-window {
+    transition: opacity 2s ease;
+    opacity: 0;
+}
+
+.command-window.active {
+    opacity: 1;
+}
+
+#hello-world {
+    align-self: center;
+    top: 3rem;
+
+}
+
+#command-windows {
+    align-self: center;
+    top: 20rem;
+    left: 50vw;
+}
+
+#rocket {
+    top: 37rem;
+    right: 50vw;
+}
+
+#experience {
+    top: 54rem;
+    left: 50vw;
+    margin-left: 7rem;
+}
+
+#liked-things {
+    top: 81rem;
+    right: 50vw;
+}
+
+#chess {
+    top: 98rem;
+    left: 50vw;
+}
+
+#projects {
+    top: 115rem;
+    right: 50vw;
+    margin-right: 7rem;
+}
+
+#projects .command-text {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    max-height: 10rem;
+}
+
+#skills {
+    max-width: 20rem;
+    top: 165rem;
+    left: 50vw;
+    margin-left: 10rem;
+}
+
+#volleyball {
+    top: 150rem;
+    right: 50vw;
+}
+
+#volleyball .command-text {
+    text-align: center;
+}
+
+#collab {
+    align-self: center;
+    top: 200rem;
+}
+
+
+
